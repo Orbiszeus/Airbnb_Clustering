@@ -1,5 +1,5 @@
 STEPS TP RUN THE APPLICATION:
 
-1. pip install -r requirments.txt
-2. python -m http.server 8000
-3. Go to your web browser and type http://localhost:8000/frontend/UI.html
+1. Installing requirments --> pip install -r requirments.txt
+2. Running a simple server on terminal --> python -m http.server 8000
+3. Go to your web browser and type --> http://localhost:8000/frontend/UI.html
