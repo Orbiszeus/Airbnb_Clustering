@@ -1,5 +1,5 @@
-from clustering import AirbnbClustering
-from data_preperation import CleaningData
+from services.clustering import AirbnbClustering
+from services.data_preperation import CleaningData
 from config import FULL_FEATURE_COL
 from pyspark.ml.clustering import KMeans
 

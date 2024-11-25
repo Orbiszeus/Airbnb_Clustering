@@ -11,7 +11,7 @@ class CleaningData:
     def preprocess_data(self):
         # Load dataset
         data = self.spark.read.csv(
-            "raw_data.csv",
+            "/data/raw_data.csv",
             header=True,
             inferSchema=True,
             multiLine=True,
