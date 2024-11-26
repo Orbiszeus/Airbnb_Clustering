@@ -1,6 +1,11 @@
-STEPS TP RUN THE APPLICATION:
+STEPS TP RUN THE UI TO SEE ANALYSIS AND CLUSTERS:
 
 1. python3 -m venv [your virtual environment name]
 2. Installing requirments --> pip install -r requirements.txt
 3. Running a simple server on terminal --> python -m http.server 8000
 4. Go to your web browser and type --> http://localhost:8000/frontend/UI.html
+
+STEPS TO RUN THE SERVICES:
+
+1. After running pip install on your environment:
+2. run --> python3 main.py
