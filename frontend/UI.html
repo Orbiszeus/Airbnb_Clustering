@@ -249,6 +249,14 @@
             </h2>
             <iframe src="visualize_by_license.html"></iframe>
         </div>
+
+        <div class="map-container">
+            <h2 class="map-title">
+                <i class="fas fa-certificate map-icon"></i>
+                 Room Type Clusters
+            </h2>
+            <iframe src="room_type_clusters.html"></iframe>
+        </div>
     </main>
 
     <!-- Analysis Header -->
@@ -281,7 +289,7 @@
             <div class="analysis-card">
                 <h3 class="analysis-title">
                     <i class="fas fa-clock map-icon"></i>
-                    Price-Time Analysis
+                    Price-Time Analysis for k=5
                 </h3>
                 <img src="Price-Time_Clustering.png" alt="Price-Time Clustering Graph" class="analysis-image">
                 <p class="analysis-description">
@@ -296,24 +304,25 @@
                     Centroid Analysis
                 </h3>
                 <img src="centroid.png" alt="Price-Time Clustering Graph" class="analysis-image">
-                <p class="analysis-description">
-                    This visualization demonstrates the relationship between pricing patterns and temporal factors. 
-                    The clustering analysis reveals distinct groups of properties based on their pricing strategies 
-                    across different time periods, helping identify seasonal trends and pricing optimizations.
-                </p>
+                
             </div>
             <div class="analysis-card">
                 <h3 class="analysis-title">
                     <i class="fas fa-clock map-icon"></i>
-                    Price-Time Analysis
+                    Silhouette Analysis for k=4
                 </h3>
-                <img src="Cluster_Feature_Importance.png" alt="Price-Time Clustering Graph" class="analysis-image">
-                <p class="analysis-description">
-                    This visualization demonstrates the relationship between pricing patterns and temporal factors. 
-                    The clustering analysis reveals distinct groups of properties based on their pricing strategies 
-                    across different time periods, helping identify seasonal trends and pricing optimizations.
-                </p>
+                <img src="silhouette_k=4.png" alt="Price-Time Clustering Graph" class="analysis-image">
+                
             </div>
+
+        </div>
+        <div class="analysis-card">
+            <h3 class="analysis-title">
+                <i class="fas fa-clock map-icon"></i>
+                Silhouette Analysis for k=5
+            </h3>
+            <img src="Figure_1.png" alt="Price-Time Clustering Graph" class="analysis-image">
+            
         </div>
     </section>
 
